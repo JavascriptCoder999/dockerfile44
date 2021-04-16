@@ -4,3 +4,7 @@ if($this.isKeyPressed(Keys.space))&&DetectScan=true{
 function DetectScan(){
   DetectScan="Blue";
 }
+if($this.scene.state()=="PLAY"{
+     Score=0;
+   }
+   var Score=0;
